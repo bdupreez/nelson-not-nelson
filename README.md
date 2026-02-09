@@ -24,7 +24,7 @@ Conductor gives Claude a six-step operational framework for tackling complex mis
 Open Claude Code and say:
 
 ```
-Install skills from https://github.com/harrymunro/nelson
+Install skills from https://github.com/bdupreez/nelson-not-nelson
 ```
 
 Claude will clone the repo, copy the skill into your project's `.claude/skills/` directory, and clean up. To install it globally across all projects, ask Claude to install it to `~/.claude/skills/` instead.
@@ -35,7 +35,7 @@ Clone the repo and copy the skill directory yourself:
 
 ```bash
 # Project-level (recommended for teams)
-git clone https://github.com/harrymunro/nelson.git /tmp/conductor
+git clone [https://github.com/bdupreez/nelson-not-nelson](https://github.com/bdupreez/nelson-not-nelson).git /tmp/conductor
 mkdir -p .claude/skills
 cp -r /tmp/conductor/.claude/skills/conductor .claude/skills/conductor
 rm -rf /tmp/conductor
