@@ -1,0 +1,4 @@
+interface:
+  display_name: "Conductor"
+  short_description: "Coordinate agent teams from mission brief through execution and wrap-up"
+  default_prompt: "Use $conductor to run a coordinated agent mission with structured briefs, risk levels, and a final mission report."
