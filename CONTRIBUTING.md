@@ -1,6 +1,6 @@
 # Contributing
 
-Thanks for your interest in contributing to Nelson.
+Thanks for your interest in contributing to Conductor.
 
 ## How to contribute
 
@@ -14,10 +14,10 @@ Bug fixes, improvements to the skill instructions or templates, documentation fi
 
 ## Skill structure
 
-The skill lives in `.claude/skills/nelson/`. The key files:
+The skill lives in `.claude/skills/conductor/`. The key files:
 
 - `SKILL.md` — Main skill instructions (the entrypoint Claude reads)
-- `references/` — Supporting docs loaded on demand (risk tiers, templates, team sizing)
+- `references/` — Supporting docs loaded on demand (risk levels, templates, team sizing)
 - `agents/` — Agent interface definitions
 
 ## Guidelines

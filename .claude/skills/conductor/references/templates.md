@@ -2,10 +2,10 @@
 
 Reuse these templates to keep mission runs consistent.
 
-## Sailing Orders Template
+## Mission Brief Template
 
 ```text
-Sailing orders:
+Mission brief:
 - Outcome:
 - Success metric:
 - Deadline:
@@ -27,7 +27,7 @@ Required handoff artifacts:
 - Must produce:
 ```
 
-## Battle Plan Template
+## Execution Plan Template
 
 ```text
 Task ID:
@@ -35,13 +35,13 @@ Task ID:
 - Owner:
 - Deliverable:
 - Dependencies:
-- Threat tier (0-3):
+- Risk level (0-3):
 - File ownership (if code):
 - Validation required:
 - Rollback note required: yes/no
 ```
 
-## Quarterdeck Report Template
+## Progress Report Template
 
 ```text
 Checkpoint time:
@@ -65,12 +65,12 @@ Risk updates:
 - new/changed risks:
 - mitigation:
 
-Admiral decision:
+Coordinator decision:
 - continue / rescope / stop:
 - rationale:
 ```
 
-## Red-Cell Review Template
+## Review Template
 
 ```text
 Target task/artifact:
@@ -78,7 +78,7 @@ Target task/artifact:
 Challenge summary:
 - Primary assumption being tested:
 - Likely failure mode:
-- Blast radius if wrong:
+- Impact scope if wrong:
 
 Checks run:
 - check:
@@ -89,7 +89,7 @@ Recommendation:
 - required changes:
 ```
 
-## Captain's Log Template
+## Mission Report Template
 
 ```text
 Mission summary:

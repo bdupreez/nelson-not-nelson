@@ -1,18 +1,18 @@
-# Nelson
+# Conductor
 
-Nelson is a Claude Code skill for coordinating agent work using Royal Navy terminology. It provides a six-step operational framework: Sailing Orders, Form the Squadron, Battle Plan, Quarterdeck Rhythm, Action Stations, and Stand Down.
+Conductor is a Claude Code skill for coordinating agent work. It provides a six-step operational framework: Mission Brief, Assemble Team, Execution Plan, Progress Checks, Risk Levels, and Wrap Up.
 
 ## Project structure
 
 ```
-.claude/skills/nelson/
+.claude/skills/conductor/
   SKILL.md              — Main entrypoint (what Claude reads)
   references/           — Supporting docs loaded on demand
-    action-stations.md  — Risk tier definitions (Station 0–3)
-    admiralty-templates.md — Reusable templates (orders, plans, logs)
-    squadron-composition.md — Mode selection & team sizing rules
+    risk-levels.md      — Risk level definitions (Level 0–3)
+    templates.md        — Reusable templates (briefs, plans, reports)
+    team-composition.md — Mode selection & team sizing rules
   agents/               — Agent interface definitions
-demos/                  — Example applications built with Nelson
+demos/                  — Example applications built with Conductor
 ```
 
 ## No build system
@@ -25,15 +25,14 @@ Install the skill locally and run a mission to verify. Either tell Claude Code "
 
 ```bash
 mkdir -p <target-project>/.claude/skills
-cp -r .claude/skills/nelson <target-project>/.claude/skills/nelson
+cp -r .claude/skills/conductor <target-project>/.claude/skills/conductor
 ```
 
-Then invoke `/nelson` in Claude Code.
+Then invoke `/conductor` in Claude Code.
 
 ## Code style
 
 - Keep instructions simple and clear
-- Follow the existing Royal Navy tone and terminology
 - Markdown for all documentation; YAML for agent interfaces
 - The battleships demo (`demos/battleships/index.html`) uses vanilla HTML/CSS/JS with no dependencies
 
