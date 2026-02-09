@@ -35,7 +35,7 @@ Clone the repo and copy the skill directory yourself:
 
 ```bash
 # Project-level (recommended for teams)
-git clone [https://github.com/bdupreez/nelson-not-nelson](https://github.com/bdupreez/nelson-not-nelson).git /tmp/conductor
+git clone https://github.com/bdupreez/nelson-not-nelson.git /tmp/conductor
 mkdir -p .claude/skills
 cp -r /tmp/conductor/.claude/skills/conductor .claude/skills/conductor
 rm -rf /tmp/conductor
